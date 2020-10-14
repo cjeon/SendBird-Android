@@ -36,7 +36,7 @@ dependencies {
 
     // Required for local unit tests (JUnit 4 framework)
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.3.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
